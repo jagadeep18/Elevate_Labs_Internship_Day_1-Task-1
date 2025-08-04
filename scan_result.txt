@@ -1,0 +1,415 @@
+C:\WINDOWS\system32>nmap -sS 172.167.10.73/24
+Starting Nmap 7.97 ( https://nmap.org ) at 2025-08-04 12:05 +0530
+Nmap scan report for 172.167.10.1
+Host is up (0.14s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+30000/tcp open  ndmps
+50000/tcp open  ibm-db2
+
+Nmap scan report for 172.167.10.3
+Host is up (0.14s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+179/tcp   open  bgp
+443/tcp   open  https
+7999/tcp  open  irdmi2
+8081/tcp  open  blackice-icecap
+8082/tcp  open  blackice-alerts
+8443/tcp  open  https-alt
+10001/tcp open  scp-config
+10002/tcp open  documentum
+20000/tcp open  dnp
+
+Nmap scan report for 172.167.10.5
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.6
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.11
+Host is up (0.14s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+7999/tcp  open  irdmi2
+8081/tcp  open  blackice-icecap
+8443/tcp  open  https-alt
+10001/tcp open  scp-config
+10002/tcp open  documentum
+20000/tcp open  dnp
+
+Nmap scan report for 172.167.10.12
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+5432/tcp open  postgresql
+
+Nmap scan report for 172.167.10.13
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.16
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+5432/tcp open  postgresql
+
+Nmap scan report for 172.167.10.23
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.32
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.36
+Host is up (0.14s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+81/tcp  open  hosts2-ns
+443/tcp open  https
+
+Nmap scan report for 172.167.10.53
+Host is up (0.15s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.58
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.61
+Host is up (0.14s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+25/tcp  closed smtp
+80/tcp  open   http
+443/tcp open   https
+465/tcp closed smtps
+587/tcp open   submission
+
+Nmap scan report for 172.167.10.62
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.63
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.63 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.65
+Host is up (0.14s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 172.167.10.74
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.74 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.85
+Host is up (0.14s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 172.167.10.89
+Host is up (0.15s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.91
+Host is up (0.14s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 172.167.10.95
+Host is up (0.14s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+7999/tcp  open  irdmi2
+8081/tcp  open  blackice-icecap
+8082/tcp  open  blackice-alerts
+8443/tcp  open  https-alt
+10001/tcp open  scp-config
+10002/tcp open  documentum
+20000/tcp open  dnp
+
+Nmap scan report for 172.167.10.98
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.98 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.100
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.100 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.106
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.106 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.112
+Host is up (0.15s latency).
+All 1000 scanned ports on 172.167.10.112 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.116
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.118
+Host is up (0.15s latency).
+All 1000 scanned ports on 172.167.10.118 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.119
+Host is up (0.15s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.121
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.121 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.123
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.123 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.128
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.128 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.131
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.131 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.134
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.134 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.136
+Host is up (0.14s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+80/tcp   open  http
+443/tcp  open  https
+587/tcp  open  submission
+993/tcp  open  imaps
+8443/tcp open  https-alt
+
+Nmap scan report for 172.167.10.139
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.139 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.143
+Host is up (0.14s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+7999/tcp  open  irdmi2
+8081/tcp  open  blackice-icecap
+8082/tcp  open  blackice-alerts
+8443/tcp  open  https-alt
+10001/tcp open  scp-config
+10002/tcp open  documentum
+20000/tcp open  dnp
+
+Nmap scan report for 172.167.10.147
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.147 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.158
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.159
+Host is up (0.14s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT      STATE  SERVICE
+26214/tcp closed unknown
+27000/tcp closed flexlm0
+
+Nmap scan report for 172.167.10.162
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+5432/tcp open  postgresql
+
+Nmap scan report for 172.167.10.165
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.165 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.184
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.193
+Host is up (0.14s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+443/tcp   open  https
+7999/tcp  open  irdmi2
+8081/tcp  open  blackice-icecap
+8082/tcp  open  blackice-alerts
+8443/tcp  open  https-alt
+10001/tcp open  scp-config
+10002/tcp open  documentum
+20000/tcp open  dnp
+
+Nmap scan report for 172.167.10.196
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.196 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.201
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.201 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.204
+Host is up (0.14s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 172.167.10.205
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.205 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.209
+Host is up (0.15s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.218
+Host is up (0.14s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE    SERVICE
+22/tcp   filtered ssh
+25/tcp   open     smtp
+80/tcp   open     http
+2525/tcp open     ms-v-worlds
+
+Nmap scan report for 172.167.10.223
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.226
+Host is up (0.14s latency).
+All 1000 scanned ports on 172.167.10.226 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+
+Nmap scan report for 172.167.10.228
+Host is up (0.14s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  closed https
+5061/tcp closed sip-tls
+8080/tcp open   http-proxy
+
+Nmap scan report for 172.167.10.230
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+8083/tcp open  us-srv
+
+Nmap scan report for 172.167.10.231
+Host is up (0.14s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+443/tcp   open  https
+7999/tcp  open  irdmi2
+8081/tcp  open  blackice-icecap
+8082/tcp  open  blackice-alerts
+8443/tcp  open  https-alt
+10001/tcp open  scp-config
+10002/tcp open  documentum
+20000/tcp open  dnp
+
+Nmap scan report for 172.167.10.237
+Host is up (0.14s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+443/tcp open  https
+
+Nmap scan report for 172.167.10.244
+Host is up (0.14s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap scan report for 172.167.10.247
+Host is up (0.14s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+443/tcp   open  https
+7999/tcp  open  irdmi2
+8081/tcp  open  blackice-icecap
+8082/tcp  open  blackice-alerts
+8443/tcp  open  https-alt
+10001/tcp open  scp-config
+10002/tcp open  documentum
+20000/tcp open  dnp
+
+Nmap scan report for 172.167.10.251
+Host is up (0.14s latency).
+Not shown: 994 filtered tcp ports (no-response)
+PORT      STATE SERVICE
+7999/tcp  open  irdmi2
+8081/tcp  open  blackice-icecap
+8443/tcp  open  https-alt
+10001/tcp open  scp-config
+10002/tcp open  documentum
+20000/tcp open  dnp
+
+Nmap done: 256 IP addresses (59 hosts up) scanned in 303.02 seconds
