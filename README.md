@@ -93,7 +93,3 @@ This project involves performing a network scan using **Nmap** to identify activ
 * [SANS ISC Port List](https://isc.sans.edu/port.html)
 * [Microsoft SMB Security Best Practices](https://learn.microsoft.com/en-us/windows-server/storage/file-server/smb-security)
 
-
-
-Let me know if you want this converted into a downloadable `.md` file or want to include Wireshark instructions and screenshots.
-```
